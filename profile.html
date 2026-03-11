@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<h2>Profile</h2>
+
+<p id="name"></p>
+<p id="email"></p>
+
+<script>
+
+document.getElementById("name").innerText =
+localStorage.getItem("name")
+
+document.getElementById("email").innerText =
+localStorage.getItem("email")
+
+</script>
+
+</body>
+</html>
