@@ -1,9 +1,7 @@
 <h2>Explorer Jurusan</h2>
 
-<input placeholder="Cari jurusan">
+<input id="search" placeholder="Cari jurusan..." onkeyup="searchMajor()">
 
-<ul>
-<li onclick="location.href='major-detail.html'">Informatika</li>
-<li onclick="location.href='major-detail.html'">Psikologi</li>
-<li onclick="location.href='major-detail.html'">Manajemen</li>
-</ul>
+<ul id="majorList"></ul>
+
+<script src="../js/majors.js"></script>
