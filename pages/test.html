@@ -1,15 +1,23 @@
 <h2>Tes Minat</h2>
 
-<p>Saya lebih suka:</p>
+<p>1. Aktivitas yang kamu suka?</p>
 
-<label>
-<input type="radio" name="q1"> Analisis data
-</label>
+<select id="q1">
+<option value="tech">Ngoding / teknologi</option>
+<option value="business">Bisnis</option>
+<option value="social">Sosial / komunikasi</option>
+</select>
 
-<label>
-<input type="radio" name="q1"> Desain visual
-</label>
+<p>2. Mata pelajaran favorit?</p>
 
-<button onclick="location.href='test-result.html'">
-Submit
-</button>
+<select id="q2">
+<option value="tech">Matematika</option>
+<option value="business">Ekonomi</option>
+<option value="social">Sosiologi</option>
+</select>
+
+<button onclick="calculate()">Lihat Hasil</button>
+
+<p id="testResult"></p>
+
+<script src="../js/test.js"></script>
